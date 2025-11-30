@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hafiz Jamshaid Official 😎🔥</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 30px;
+            font-size: 32px;
+            font-weight: bold;
+            background: #1a1a1a;
+        }
+        .btn-container {
+            margin-top: 40px;
+        }
+        a.button {
+            display: block;
+            width: 80%;
+            max-width: 350px;
+            margin: 15px auto;
+            padding: 15px;
+            background: #ff4747;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        a.button:hover {
+            background: #ff2a2a;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <header>Hafiz Jamshaid Official 😎🔥</header>
+
+    <div class="btn-container">
+        <a class="button" href="https://www.youtube.com/channel/UCL9mgGnT96_r3xb6KTqFv_A" target="_blank">YouTube Channel 1</a>
+        <a class="button" href="https://www.youtube.com/channel/UC6IvFRlqbKwrc51mV75pS5g" target="_blank">YouTube Channel 2</a>
+        <a class="button" href="#" id="tiktokBtn">TikTok Profile</a>
+        <a class="button" href="#" id="whatsappBtn">WhatsApp</a>
+    </div>
+
+    <footer>© 2025 Jamshaid Boss 😎 — All Rights Reserved</footer>
+
+    <script>
+        document.getElementById("whatsappBtn").href = "https://wa.me/923292544293";
+    </script>
+</body>
+</html>
